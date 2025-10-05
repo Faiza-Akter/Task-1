@@ -1,8 +1,8 @@
 <?php   
 // Database connection
 $host = "localhost";
-$user = "root"; // default XAMPP username
-$pass = "";     // default XAMPP password is empty
+$user = "root"; 
+$pass = "";     
 $db   = "registration_db";
 
 $conn = new mysqli($host, $user, $pass, $db);
@@ -42,15 +42,15 @@ $conn->close();
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Registration Form</title>
 
-  <!-- Google Font + icons -->
+  
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" />
 
   <style>
     :root{
-      --accent-1: #1b2733; /* Dark Navy */
-      --accent-2: #60b36c; /* Fern Green */
-      --accent-3: #033364; /* Steel Blue */
+      --accent-1: #1b2733; 
+      --accent-2: #60b36c; 
+      --accent-3: #033364;
       --muted: #9aa4ad;
       --input-border: #eef2f6;
       --radius: 15px;
@@ -61,7 +61,7 @@ $conn->close();
     html,body { height: 100%; margin: 0; font-family: 'Poppins', Arial, sans-serif; }
 
     body {
-        background-image: url('img1.jpg'); /* Replace with your image path */
+        background-image: url('img1.jpg'); 
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -156,7 +156,7 @@ $conn->close();
       padding:5px; border-radius:6px;
     }
 
-    /* New gradient for register button */
+    
     .submit-btn {
       display:block; width:100%; border:0;
       padding:10px 14px; border-radius:10px;
