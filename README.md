@@ -82,7 +82,8 @@ This project demonstrates how to create a **clean, modular PHP system** that int
 
 ## 👨‍💻 Author
 
-**Developed by:** [SM Faiza Akter Borsha]
+**Developed by:** SM Faiza Akter Borsha
+---
 **Department of Software Engineering, Batch-5th, Metropolitan University, Sylhet**
 
 ---
